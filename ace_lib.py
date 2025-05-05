@@ -45,7 +45,19 @@ class SingleSession(requests.Session):
     def get_relogin_lock(self):
         return self._relogin_lock
 
-
+def validate_session(session):
+    """
+    Validates if the session is active and authorized with the API.
+    Returns True if valid, False otherwise.
+    """
+    try:
+        # Make a lightweight API call to check if session is valid
+        # For example, get user info or some basic endpoint that requires auth
+        test_response = session.get("https://api.worldquantbrain.com/user-info")
+        return test_response.status_code == 200
+    except Exception as e:
+        print(f"Session validation failed: {e}")
+        return False
 def setup_logger() -> logging.Logger:
     """
     This function sets up a logger that writes log messages to the console and,
