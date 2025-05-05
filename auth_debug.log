@@ -1,0 +1,9 @@
+2025-05-03 16:54:02,677 - auth - DEBUG - get_session() called
+2025-05-03 16:54:02,678 - auth - DEBUG - Loading session from session.pkl
+2025-05-03 16:54:02,680 - auth - INFO - Loaded session from file.
+2025-05-03 16:54:02,683 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.worldquantbrain.com:443
+2025-05-03 16:54:05,514 - urllib3.connectionpool - DEBUG - https://api.worldquantbrain.com:443 "GET /data-sets?instrumentType=EQUITY&region=USA&delay=1&universe=TOP3000&theme=false HTTP/1.1" 200 18522
+2025-05-03 17:09:18,366 - DEBUG - Starting new HTTPS connection (1): api.worldquantbrain.com:443
+2025-05-03 17:09:19,455 - DEBUG - https://api.worldquantbrain.com:443 "GET /data-sets?instrumentType=EQUITY&region=USA&delay=1&universe=TOP3000&theme=false HTTP/1.1" 401 50
+2025-05-03 17:10:03,547 - DEBUG - Starting new HTTPS connection (1): api.worldquantbrain.com:443
+2025-05-03 17:10:04,512 - DEBUG - https://api.worldquantbrain.com:443 "GET /data-sets?instrumentType=EQUITY&region=USA&delay=1&universe=TOP3000&theme=false HTTP/1.1" 401 50

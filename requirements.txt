@@ -1,0 +1,9 @@
+pip>=24.0
+notebook>=7.2.0
+pandas>=2.2.1
+requests>=2.31.0
+seaborn>=0.13.2
+matplotlib>=3.8.4
+tqdm>=4.66.4
+plotly>=5.22.0
+networkx>=3
